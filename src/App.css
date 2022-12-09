@@ -1,0 +1,37 @@
+
+.calc{
+    width: 320px;
+    margin: 100px auto;
+}
+#answer{
+    background-color:rgb(247, 26, 26);
+    padding: 10px;
+    font-size: 35px;
+    width: 320px;
+    height: 89px;
+    text-align:right;
+    border:3px solid #eee;
+    border-radius:15px;
+    color:#fff;
+}
+#answer::placeholder{
+    color:#eee;
+}
+.button{
+    background-color:rgb(14, 13, 13);
+    height:80px;
+    width:80px;
+    color:white;
+    font-size:30px;
+    border:1px solid #fff;
+    border-radius:50px;
+    float:left;
+    cursor:pointer;
+}
+.button1{
+    width:160px;
+    background-color:rgb(156, 11, 192);
+}
+input:hover{
+    color:blue; 
+}
